@@ -1,0 +1,25 @@
+{
+  "name": "preentrega2_lubo_gabriel",
+  "version": "1.0.0",
+  "description": "Tercera pre entrega Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilosMios.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielLubo/PreEntrega2_Lubo_Gabriel.git"
+  },
+  "author": "Gabriel Lubo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielLubo/PreEntrega2_Lubo_Gabriel/issues"
+  },
+  "homepage": "https://github.com/GabrielLubo/PreEntrega2_Lubo_Gabriel#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
