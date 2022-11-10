@@ -1,0 +1,37 @@
+.card-header {
+    height: 150px;
+    background-color: $color-primario;
+    transition: 0.5s;
+}
+
+.card-body {
+    background-color: #96e5d1;
+}
+
+.img-atas {
+    width: calc(95% - 20px);
+    height: 150px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tag-price {
+    width: 60%;
+    height: 40px;
+    position: absolute;
+    background-color: rgba(165, 190, 204, 0.7);
+    display: flex;
+    border-radius: 10px 0;
+    transition: 0.5s;
+
+    a h3 {
+        &:hover {
+            transition: ease-in-out 0.5s;
+            transform: scale(1.2);
+        }
+
+        font-size: 1.4em;
+    }
+}

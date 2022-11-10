@@ -1,5 +1,5 @@
 {
-  "name": "preentrega2_lubo_gabriel",
+  "name": "preentrega3_lubo_gabriel",
   "version": "1.0.0",
   "description": "Tercera pre entrega Coderhouse",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GabrielLubo/PreEntrega2_Lubo_Gabriel.git"
+    "url": "git+https://github.com/GabrielLubo/PreEntrega3_Lubo_Gabriel.git"
   },
   "author": "Gabriel Lubo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GabrielLubo/PreEntrega2_Lubo_Gabriel/issues"
+    "url": "https://github.com/GabrielLubo/PreEntrega3_Lubo_Gabriel/issues"
   },
-  "homepage": "https://github.com/GabrielLubo/PreEntrega2_Lubo_Gabriel#readme",
+  "homepage": "https://github.com/GabrielLubo/PreEntrega3_Lubo_Gabriel#readme",
   "devDependencies": {
     "node-sass": "^7.0.3",
     "nodemon": "^2.0.20"

@@ -1,6 +1,9 @@
 @import 'variables';
 @import 'footer';
-
+@import 'nosotros';
+@import 'servicios';
+@import 'experiencias';
+@import 'contacto';
 body {
     overflow: hidden;
 }
@@ -37,15 +40,16 @@ nav {
 }
 
 img {
-    max-width: 100%;
     height: auto;
     animation: serviciosAnimation ease 8s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
+
+
 .circles li {
-    position: fixed;
+    position: absolute;
     display: block;
     list-style: none;
     width: 20px;
@@ -143,3 +147,5 @@ img {
         border-radius: 50%;
     }
 }
+
+
